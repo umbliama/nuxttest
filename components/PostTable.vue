@@ -13,7 +13,7 @@
               <span class="sr-only">Loading...</span>
             </div>
 
-    <table class="min-w-full bg-white">
+    <table class="bg-blue-200">
       <thead>
         <tr>
           <th @click="changeSort('id')" class="cursor-pointer">
@@ -32,9 +32,9 @@
       <tbody v-if="!store.isLoading">
 
         <tr  v-for="post in paginatedPosts" :key="post.id">
-          <td class="py-4">{{ post.id }}</td>
-          <td class="py-4">{{ post.title }}</td>
-          <td class="py-4">{{ post.body }}</td>
+          <td class="py-4 px-4 border border-slate-1000 ">{{ post.id }}</td>
+          <td class="py-4 px-4 border border-slate-1000">{{ post.title }}</td>
+          <td class="py-4 px-4 border border-slate-1000">{{ post.body }}</td>
         </tr>
       </tbody>
     </table>
