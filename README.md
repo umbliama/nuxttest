@@ -1,5 +1,6 @@
 ## Setup
 
+
 ```bash
 # npm
 npm install
@@ -21,6 +22,8 @@ Build the application for production:
 ```bash
 # npm
 npm run build
+
+## Preview
 
 Locally preview production build:
 
